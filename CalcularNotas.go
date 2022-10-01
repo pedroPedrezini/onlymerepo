@@ -1,4 +1,4 @@
-﻿package main
+package main
 
 import (
 	"fmt"
@@ -16,9 +16,9 @@ func soma(n []notasMatematica) {
 		total := v.primeiroTri + v.segundoTri + v.terceiroTri
 		falta := 180 - total
 		if total > 180 {
-			fmt.Println("Aprovado")
+			fmt.Println("Aprovado com:", total, "pontos")
 		} else {
-			fmt.Println("reprovado falta: ", falta)
+			fmt.Println("Reprovado, faltam:", falta, "pontos")
 		}
 	}
 }
