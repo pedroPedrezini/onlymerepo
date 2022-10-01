@@ -1,4 +1,4 @@
-package nutriente
+package main
 
 import "fmt"
 
@@ -74,5 +74,4 @@ func main() {
 		fmt.Println("total de calorias em", frangoCozido.quantidadeGramas, "gramas de frango e em", paoDeForma.quantidadeGramas, "gramas de pão de forma:", totalCalorias)
 		fmt.Println("")
 	}(alimentosTodos)
-
 }
